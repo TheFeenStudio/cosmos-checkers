@@ -8,14 +8,23 @@ accounts:
   coins:
   - 10000token
   - 100000000stake
-client:
-  openapi:
-    path: docs/static/openapi.yml
+- name: frank
+  coins:
+  - 100token
+  - 1000stake
+  mnemonic: vendor example rigid about sort couple simple aunt degree crush source shiver
 faucet:
   name: bob
   coins:
   - 5token
   - 100000stake
+client:
+  typescript:
+    path: ts-client
+  composables:
+    path: vue/src/composables
+  openapi:
+    path: docs/static/openapi.yml
 validators:
 - name: alice
   bonded: 100000000stake
